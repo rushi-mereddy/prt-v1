@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Ready</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+
+
+      <!-- Popup modal -->
+
+      <div class="popup" id="popup">
+        <div class="container">
+          <button type="button" class="close sip_close" data-dismiss="modal" aria-label="Close" onclick="closePopup()">
+            X
+        </button>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="head" style="color: #132356; text-align: center; margin-top: 35px;">Lets Collaborate</div>
+                <div class="form">
+                  <form action="post" >
+                    <div>
+                      <label for="name">Name</label>
+                      <br>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div>
+                      <label for="email">Email</label>
+                      <br>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    </div>
+                    <div>
+                      <label for="contact-no">Contact number</label>
+                      <br>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div>
+                      <label for="organization">Organization</label>
+                      <br>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div>
+                      <label for="message">Message</label>
+                      <br>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                      <label class="form-check-label" for="exampleCheck1">I agree to terms and conditions</label>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary popup-btn mt-2">Submit Request</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6 no-mobile">
+
+                <div class="popup-right">
+                  <div class="cards popup-cards">
+                    <div class="card popup-card1">
+                        <div class="body-text fw-bold">
+                          One stop sourcing solution
+                        </div>
+                        <div class="body-text">
+                          We help corporate's source, assess and train tech talent in India, ASIAN and Middle East.
+                        </div>
+                    </div>
+                    <div class="card popup-card2 mt-3">
+                        <div class="body-text fw-bold">
+                          Get trained candidates as per your project needs
+                        </div>
+                        <div class="body-text">
+                          We can customize the module basis your requirements.
+                        </div>
+                    </div>
+                    <div class="card popup-card1 mt-3">
+                        <div class="body-text fw-bold">
+                          Certified Talent Pool
+                        </div>
+                        <div class="body-text">
+                          We assure you to provide certified talent.
+                        </div>
+                    </div> 
+                    <div class="card popup-card2 mt-3">
+                        <div class="body-text fw-bold">
+                          Billable from Day-1
+                        </div>
+                        <div class="body-text">
+                          You get candidates that are Certified and Project ready who are capable of performing from Day-1.
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Popup modal end -->
+
+
+      <!-- Banner -->
+
+      <div class="banner">
+        <div class="container">
+          <div class="logos">
+            <img src="logos/Smart.png" alt="" class="smart-logo">
+          </div>
+          <div class="main-head animate__animated animate__fadeInUp">
+            Project Ready Talent
+          </div>
+          <div class="main-sub-head animate__animated animate__fadeInUp" style="max-width: 650px;">
+            A hassle free solution for sourcing a Deployable Talent
+          </div>
+          <div class="banner-btn-div">
+            <button type="button" class="btn banner-btn" onclick="openPopup()">Request a demo</button>
+          </div>
+        </div>
+      </div>
+      <!-- Banner end -->
+
+      <!-- sourcing  -->
+
+      <div class="sourcing">
+        <div class="container">
+        <div class="sourcing-cont reveal fade-bottom">
+          <div class="sourcing-head">
+            <div class="head text-center mt-4">
+              Is hiring a Project Ready Talent a hassle?
+            </div>
+            <div class="sub-head text-center">
+              Helping build Certified Project Ready Talent Pipeline
+            </div>
+          </div>
+          <div class="cards-div mt-2">
+            <div class="row g-3 justify-content-center">
+              <div class="col-md-5 col-12">
+                 <div class="row">
+                  <div class="col">
+                    <div class="card sourcing-card zoom card-1 reveal fade-left">
+                      <div class="card-icon sourcing-icon">
+                        <img src="images/solution-icon.svg" alt="" width="40px" style="margin-top: 10px;">
+                      </div>
+                     <div class="card-text">
+                       <div class="body-text">
+                         <b> One Stop Sourcing Solution</b>
+                       </div>
+                      <div class="body-text mt-2">
+                        <p> We source, assess and train tech talent in India, ASEAN and Middle East.</p>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                  
+                 </div>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="row">
+                 <div class="col">
+                   <div class="card sourcing-card zoom card-2 reveal fade-right">
+                     <div class="card-icon sourcing-icon">
+                       <img src="images/trained_candidates.png" alt="" width="40px" style="margin-top: 15px;">
+                     </div>
+                    <div class="card-text">
+                      <div class="body-text">
+                       <b> Trained Candidates As Per Your Project Needs</b>
+                      </div>
+                     <div class="body-text mt-2">
+                       <p> We can customize the modules basis your requirements. </p>
+                      </div>
+                    </div>
+                   </div>
+                 </div>
+                </div>
+             </div>
+             <div class="col-md-5 col-12">
+              <div class="row">
+               <div class="col">
+                 <div class="card sourcing-card zoom card-3 reveal fade-left">
+                   <div class="card-icon sourcing-icon">
+                     <img src="images/certified-icon.svg" alt="" width="35px" style="margin-top: 15px;">
+                   </div>
+                  <div class="card-text">
+                    <div class="body-text"><b> Certified Talent Pool</b></div>
+                   <div class="body-text mt-2">
+                     <p> We assure you to provide certified candidate.</p>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+              </div>
+              </div>
+             <div class="col-md-5 col-12">
+              <div class="row">
+               <div class="col">
+                 <div class="card sourcing-card zoom card-4 reveal fade-right">
+                   <div class="card-icon sourcing-icon">
+                     <img src="images/business-working-hours-icon.svg" alt="" width="55px" style="margin-top: 15px;">
+                   </div>
+                  <div class="card-text">
+                    <div class="body-text"><b>Billable From Day-1</b></div>
+                   <div class="body-text mt-2">
+                     <p> Our talent is capable of performing from Day-1</p>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Sourcing end -->
+
+
+      <!-- How it works -->
+          <div class="hiw">
+            <div class="container">
+              <div class="head text-center hiw-head">
+                How it works?
+              </div>
+              <div class="sub-head text-center hiw-sub-head">
+                Some text here Some text here Some text here
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <img src="images/floater-prefooter-cta.png" alt="" class="hiw-img no-mobile">
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="hiw-cards">
+                    <div class="card hiw-card reveal fade-right">
+                        <div class="hiwc-content">
+                          <div class="card-icon" style="position: absolute; margin-left: -96px; margin-top: -5px; background-color: none; box-shadow: none;">
+                            <img src="images/order.png" alt="" width="50px" style="margin-top: 15px; margin-left: 10px;">
+                          </div>
+                          <div class="hiwc-head body-text">Order Book</div>
+                          <div class="hiwc-body body-text">Just share your requirements and relax</div>
+                        </div>
+                    </div>
+                    <div class="card hiw-card reveal fade-right">
+                      <div class="card-icon" style="position: absolute; margin-left: -96px; margin-top: -5px; background-color: none; box-shadow: none;">
+                        <img src="images/check-list.png" alt="" width="50px" style="margin-top: 20px; margin-left: 10px;">
+                      </div>
+                      <div class="hiwc-head body-text">Assessment</div>
+                      <div class="hiwc-body body-text">Basic Aptitude, Coding and Communication Skills</div>
+                    </div>
+                    <div class="card hiw-card reveal fade-right">
+                      <div class="card-icon" style="position: absolute; margin-left: -96px; margin-top: -5px; background-color: none; box-shadow: none;">
+                        <img src="images/online-training.png" alt="" width="50px" style="margin-top: 20px;">
+                      </div>
+                      <div class="hiwc-head body-text">Training</div>
+                      <div class="hiwc-body body-text">120 Hrs of project based <br> learning</div>
+                    </div>
+                    <div class="card hiw-card reveal fade-right">
+                      <div class="card-icon" style="position: absolute; margin-left: -96px; margin-top: -5px; background-color: none; box-shadow: none;">
+                        <img src="images/award.png" alt="" width="50px" style="margin-top:15px;">
+                      </div>
+                      <div class="hiwc-head body-text">Certification</div>
+                      <div class="hiwc-body body-text">20Hrs of certification exam preparation</div>
+                    </div>
+                    <div class="card hiw-card reveal fade-right">
+                      <div class="card-icon" style="position: absolute; margin-left: -96px; margin-top: -5px; background-color: none; box-shadow: none;">
+                        <img src="images/hand-shake.png" alt="" width="50px" style="margin-top: 20px;">
+                      </div>
+                      <div class="hiwc-head body-text">Placement</div>
+                      <div class="hiwc-body body-text">Students are trained on soft skills as well</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- How it works ends -->
+
+
+       <!-- Mid title -->
+       <div class="mt">
+        <div class="container">
+          <div class="main-head" style="margin-top: 30px;">
+            We don't just upskill
+          </div>
+          <div class="main-sub-head text-center">
+            we make project ready talent
+          </div>
+        </div>
+      </div>
+
+      <!-- Mid title end -->
+
+
+
+      <!-- Making project ready -->
+
+        <div class="mpr">
+          <div class="container">
+            <div class="sub-head text-center">
+              Making project ready talent since 2015
+            </div>
+            <div class="body-text">
+              <div class="circles mt-5 text-center">
+                 <img src="images/circles.svg" alt="" class=" no-mobile no-tab">
+                 <img src="images/mob-circles.svg" alt="" class=" no-pc only-tab">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Making project ready end -->
+
+     
+
+      <!-- Supported by -->
+      <div class="supp">
+        <div class="">
+          <div class="row">
+            <div class="col-md-6 col-12 supp-left">
+              <div class="sub-head text-center" >
+                Supported by
+              </div>
+              <div class="supp-logos">
+                <div class="container text-center">
+                  <div class="row row-cols-3 container">
+                    <div class="col"><div class="card supp-cards"><img src="logos/ibm.png" alt="IBM_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/salesforce.png" alt="Salesforce_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/google.png" alt="google_logo" class="supp-logo pt-2"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/aws.png" alt="aws_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/vmware.png" alt="vmware_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/tableau.png" alt="tableau_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/oracle.png" alt="Oracle_Academy_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><img src="logos/micron.png" alt="Micron_logo" class="supp-logo"></div></div>
+                    <div class="col"><div class="card supp-cards"><div style="color: #132356;">and more..</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 supp-right">
+              <div class="container">
+                <div class="head supp-head">
+                  Want to know more?
+                </div>
+              <button type="button" class="btn collab-btn">Lets Collaborate</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Supported by end -->
+
+
+      <!-- Are you an educator -->
+      <div class="edu">
+        <div class="container">
+          <div class="head text-center">Are you an educator?</div>
+          <div class="sub-head text-center">We have an Outcome Driven Framework for Project Readiness</div>
+          <div class="cards-div mt-3">
+            <div class="row g-3 justify-content-center">
+              <div class="col-md-5 col-12 reveal fade-left">
+                 <div class="row">
+                  <div class="col">
+                    <div class="card educator-card zoom">
+                      <div class="card-icon">
+                        <img src="images/learning-student-svgrepo-com.png" alt="" width="50px" style="margin-top: 10px;">
+                      </div>
+                     <div class="card-text">
+                       <div class="body-text">
+                         <b> Project Based Learning</b>
+                       </div>
+                      <div class="body-text mt-2">
+                        <p> Hands-on experience with project-based learning. </p>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                  
+                 </div>
+              </div>
+              <div class="col-md-5 col-12 reveal fade-right">
+                <div class="row">
+                 <div class="col">
+                   <div class="card educator-card zoom">
+                     <div class="card-icon">
+                       <img src="images/micro-skilling.svg" alt="" width="45px" style="margin-top: 15px;">
+                     </div>
+                    <div class="card-text">
+                      <div class="body-text">
+                       <b> Micro Skilling</b>
+                      </div>
+                     <div class="body-text mt-2">
+                       <p> We make learning easier for students. </p>
+                      </div>
+                    </div>
+                   </div>
+                 </div>
+                </div>
+             </div>
+             <div class="col-md-5 col-12 reveal fade-left">
+              <div class="row">
+               <div class="col">
+                 <div class="card educator-card zoom">
+                   <div class="card-icon">
+                     <img src="images/classroom-icon.svg" alt="" width="40px" style="margin-top: 20px;">
+                   </div>
+                  <div class="card-text">
+                    <div class="body-text"><b> Mentoring </b></div>
+                   <div class="body-text mt-2">
+                     <p> Mentor supported learning <br> path. </p>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+              </div>
+              </div>
+             <div class="col-md-5 col-12 reveal fade-right">
+              <div class="row">
+               <div class="col">
+                 <div class="card educator-card zoom">
+                   <div class="card-icon">
+                     <img src="images/interview-icon.svg" alt="" width="50px" style="margin-top: 15px;">
+                   </div>
+                  <div class="card-text">
+                    <div class="body-text"><b>Certification & Interview readiness</b></div>
+                   <div class="body-text mt-2">
+                     <p> Our ultimate goal is to place the students.</p>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Are you an educator end -->
+
+
+      <!-- Recognized by -->
+      <div class="rec">
+        <div class="row">
+          <div class="col-md-6 col-12 rec-left">
+            <div class="rec-left-contents">
+              <div class="head rec-head">
+                Speak to us
+              </div>
+              <button type="button" class="btn collab-btn" onclick="openPopup()">Request a demo</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 rec-right">
+            <div class="sub-head text-center" >
+              Recognised by
+            </div>
+            <div class="rec-logos">
+              <div class="container text-center">
+                <div class="row row-cols-3 container">
+                  <div class="col"><div class="card supp-cards"><img src="logos/AICTE-logo.png" alt="AICTE_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/4KC1B77B_400x400.png" alt="TASK_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/csilogo.png" alt="CSI_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/tnsdc-logo2.png" alt="TNSDC_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/apssdc.png" alt="APSSDC_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/tnsdc-logo2.png" alt="TNSDC_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/neat-logo-top.webp" alt="NEAT_logo" class="supp-logo neat_logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><img src="logos/Ministry_of_Education_India.svg.png" alt="MEI_logo" class="supp-logo"></div></div>
+                  <div class="col"><div class="card supp-cards"><div class="supp-logo" style="color: #132356;">and more..</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Recognized by end -->
+
+      <!-- /* Trending Tech */ -->
+      <div class="trend">
+        <div class="container">
+          <div class="head text-center">
+            Trending Tech on Project Ready Program
+          </div>
+          <div class="sub-head text-center">
+            Some text here Some text here Some text here
+          </div>
+          <div class="trend-logos mt-5">
+            <div class="row justify-content-center text-center ">
+              <!-- <div class="col-3"><img src="logos/Administrator.png" alt="" width="250px"></div> -->
+              <div class="col-md-3 col-12"><img src="logos/developer.png" alt="" width="150px"></div>
+              <div class="col-md-3 col-12 pt-5 mt-2"><img src="logos/google.png" alt="" width="150px"></div>
+              <div class="col-md-3 col-12 mt-3"><img src="logos/ibm.png" alt="" width="120px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- /* Trending Tech end */ -->
+
+
+      <!-- Student Testimonies -->
+      <!-- <div class="test">
+        <div class="container">
+          <div class="head text-center">
+            Student Testimonies
+          </div>
+          <div class="sub-head text-center">
+            Some text here Some text here Some text here
+          </div>
+          <section id="testimonial-area">
+            <div class="container mt-5">
+              <div class="testi-wrap">
+          
+                <div class="client-single active position-1" data-position="position-1">
+                  <div class="client-img zoom reveal fade-bottom">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>ALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-2" data-position="position-2">
+                  <div class="client-img zoom reveal fade-right">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>BLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-3" data-position="position-3">
+                  <div class="client-img zoom reveal fade-right">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>CLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-4" data-position="position-4">
+                  <div class="client-img zoom reveal fade-right">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>DLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-5" data-position="position-5">
+                  <div class="client-img zoom reveal fade-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>ELorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-6" data-position="position-6">
+                  <div class="client-img zoom reveal fade-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>FLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+                <div class="client-single inactive position-7" data-position="position-7">
+                  <div class="client-img zoom reveal fade-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8hzuL_hN510I7b7wE-pHROEdymlRHvXquA&usqp=CAU" width="40px" alt="">
+                  </div>
+                  <div class="client-comment">
+                    <h3>GLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+                    <span><img src="images/quote-left-solid.svg" alt="" class="test-quote"></span>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+        </div>
+      </div> -->
+
+
+      <!-- Testimonies end -->
+
+      <!-- Educator Testimonies -->
+      <div class="Etest">
+        <div class="container">
+          <div class="head text-center">
+            Customer stories
+          </div>
+          <div class="sub-head text-center">
+            Some text here Some text here Some text here
+          </div>
+          <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption">
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam reprehenderit atque, iure architecto nulla ab dignissimos, aspernatur reiciendis ullam harum assumenda eum esse vitae voluptates magnam, natus veniam optio saepe. </p> <img src="https://square-vn.com/app/dscms/assets/images/person-1.jpg?v=1653932875">
+                            <div id="image-caption">Nick Doe</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia, illum possimus suscipit dolore itaque reprehenderit repellendus minima debitis expedita, modi vero ratione quam qui aperiam. Harum laboriosam doloremque dolorem.</p> <img src="https://square-vn.com/app/dscms/assets/images/person-1.jpg?v=1653932875" class="img-fluid">
+                            <div id="image-caption">Cromption Greves</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae magni id, totam minima sapiente eaque. Libero, ea consequatur numquam fuga, molestiae quos deleniti nobis, eos autem doloremque rerum necessitatibus nesciunt.</p> <img src="https://square-vn.com/app/dscms/assets/images/person-1.jpg?v=1653932875" class="img-fluid">
+                            <div id="image-caption">Harry Mon</div>
+                        </div>
+                    </div>
+                </div>  
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </div>
+      </div>
+      <!-- Educator Testimonies end -->
+
+
+      <!-- FAQ's -->
+
+  <div class="faqs">
+    <div class="container" style="padding-bottom: 12vh;">
+      <div class="text-container">
+        <div style="margin-bottom:3vh;">
+          <h1 class="head">F.A.Q.</h1>
+        </div>
+        <p class="sub-head" >Find answers to the most popular questions</p>
+      </div>
+      <div style="margin-top: 3rem;" class="reveal">
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac urna turpis viverra sed mi sociis. Vitae, volutpat, hendrerit pretium, amet aenean dui libero nisl. Vitae lectus rutrum scelerisque sit feugiat accumsan. Id praesent enim in cursus. Et tortor, fringilla ullamcorper auctor habitasse. Nisi, massa nisi ante nulla morbi volutpat libero nunc gravida. Vitae sed iaculis id amet. Nibh id non porta et faucibus mollis non, ante enim. Pharetra mattis hac malesuada volutpat tempor vitae. Id non viverra nisl tristique ornare mi etiam eget.</p>
+          </div>
+
+        <button class="accordion reveal fade-bottom">Question is here Question is here Question is here Question is here Question is here?</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+      </div>  
+    </div>
+  </div>
+
+
+  <!-- FAQ'S end -->
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+
+    <script>
+
+// Testimonies
+  $(document).ready(
+  (function () {
+    $(".client-single").on("click", function (event) {
+      event.preventDefault();
+
+      var active = $(this).hasClass("active");
+
+      var parent = $(this).parents(".testi-wrap");
+
+      if (!active) {
+        var activeBlock = parent.find(".client-single.active");
+
+        var currentPos = $(this).attr("data-position");
+
+        var newPos = activeBlock.attr("data-position");
+
+        activeBlock
+          .removeClass("active")
+          .removeClass(newPos)
+          .addClass("inactive")
+          .addClass(currentPos);
+        activeBlock.attr("data-position", currentPos);
+
+        $(this)
+          .addClass("active")
+          .removeClass("inactive")
+          .removeClass(currentPos)
+          .addClass(newPos);
+        $(this).attr("data-position", newPos);
+      }
+    });
+  })(jQuery)
+);
+
+
+  //faq's
+
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("faq-active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  
+
+  // popup
+  let popup = document.getElementById("popup");
+
+  function openPopup(){
+    popup.classList.add("open-popup");
+  }
+
+  function closePopup(){
+    popup.classList.remove("open-popup");
+    popup.classList.add("close-popup");
+  }
+
+
+    // text animation
+    function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 5;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+ 
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
